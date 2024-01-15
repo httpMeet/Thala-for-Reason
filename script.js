@@ -39,6 +39,4 @@ function evaluateExpression(input) {
 }
 
 function checkBackground() {
-  // If you want to perform additional actions on input change, add them here
-  // For now, this function is kept empty
 }
