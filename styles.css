@@ -33,6 +33,11 @@ body > h2 {
   align-items: center;
   justify-content: center;
 }
+#child p{
+  text-align: center;
+  margin: 12px;
+  color:#333333;
+}
 
 #changeBackgroundBtn {
   margin-top: 10px;
