@@ -1,3 +1,6 @@
+body{
+  background-image: url('back.jpg');
+}
 #parent {
   transition: background 0.5s;
   height: 100vh;
@@ -24,7 +27,7 @@ body > h2 {
   flex-direction: column;
   height: 400px;
   width: 400px;
-  background-image: url('back.jpg');
+  background-image:inherit;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -36,7 +39,7 @@ body > h2 {
 #child p{
   text-align: center;
   margin: 12px;
-  color:#333333;
+  color:black;
 }
 
 #changeBackgroundBtn {
